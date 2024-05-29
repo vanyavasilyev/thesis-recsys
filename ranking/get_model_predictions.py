@@ -41,5 +41,5 @@ for name, model_creator in approaches:
         print(name, feature_path, roc_auc)
         results[name][feature_path] = roc_auc
 
-with open("/mnt/data/vnayok/embedder/validation_results_ranking/fr__2121.json", "w") as f:
+with open("somewhere.json", "w") as f:
     json.dump(results, f, indent=4)
