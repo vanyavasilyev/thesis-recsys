@@ -1,0 +1,36 @@
+{
+    "data_location": {
+        "crop_categories_file": "",
+        "base_categories_file": "categories/base_categories.json",
+        "categories_mapping_file": "categories/df+f200_categories.json",
+        "checkpoint_dir_name": ""
+    },
+    "model_args": {
+        "model_name": "convnextv2_base",
+        "checkpoint_path": null,
+        "is_wrapped_checkpoint": true
+    },
+    "lightning_model_args": {
+        "loss_type": "arcface",
+        "loss_kwargs": {
+            "num_classes": 13,
+            "embedding_size": 1024,
+            "margin": 0.3,
+            "scale": 30.0
+        }
+    },
+    "trainer_args": {
+        "devices": [
+            0
+        ],
+        "accelerator": "gpu",
+        "max_epochs": 10
+    },
+    "dataloader_args": {
+        "batch_size": 32,
+        "num_workers": 8
+    },
+    "misc": {
+        "save_first": true
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "data_location": {
+        "data_dir": "",
+        "triplets_file": "",
+        "checkpoint_dir_name": "",
+        "triplets_full_paths": false
+    },
+    "model_args": {
+        "model_name": "convnextv2_atto",
+        "checkpoint_path": null,
+        "is_wrapped_checkpoint": true
+    },
+    "lightning_model_args": {
+        "margin": 0.3
+    },
+    "trainer_args": {
+        "devices": [
+            0
+        ],
+        "accelerator": "gpu",
+        "max_epochs": 10
+    },
+    "dataloader_args": {
+        "batch_size": 64,
+        "num_workers": 8
+    },
+    "misc": {
+        "save_first": true
+    }
+}
