@@ -1,0 +1,5 @@
+ranking/data/embeddings_base.csv filter=lfs diff=lfs merge=lfs -text
+ranking/data/embeddings_look-based.csv filter=lfs diff=lfs merge=lfs -text
+ranking/data/embeddings_segment-based-sim-ext.csv filter=lfs diff=lfs merge=lfs -text
+ranking/data/embeddings_segment-based-sim.csv filter=lfs diff=lfs merge=lfs -text
+ranking/data/reactions.csv filter=lfs diff=lfs merge=lfs -text
