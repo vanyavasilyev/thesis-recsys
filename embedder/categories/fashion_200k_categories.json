@@ -1,0 +1,8 @@
+{
+    "outwear": ["long sleeve outwear", "short sleeve outwear"],
+    "shorts": ["shorts"],
+    "pants": ["trousers"],
+    "top": ["short sleeve top", "long sleeve top", "vest", "sling"],
+    "skirt": ["skirt"],
+    "dress": ["vest dress", "sling dress", "short sleeve dress", "long sleeve dress"]   
+}
